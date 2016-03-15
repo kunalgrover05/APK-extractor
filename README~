@@ -1,0 +1,16 @@
+Shows binary dependencies of an android app, and the architectures.
+
+# DEPENDENCIES
+- Install libzip-dev and libelfg0-dev
+- Commands:
+	sudo apt-get install libzip-dev libelfg0-dev
+
+
+# COMPILING
+- g++ libextractor.cpp -o libextractor -lzip -lelf
+
+# RUNNING
+- ./libextractor [OPTIONS] <APK1> <APK2> . . .
+or ./libextractor -d <DIRECTORY WITH FILES>
+- OPTIONS: 
+	-h : Prints help
