@@ -1,4 +1,5 @@
 Shows binary dependencies of an android app, and the architectures.
+Reads ELF headers to process the libraries.
 
 # Check the libelf by example here: https://sourceforge.net/projects/elftoolchain/files/Documentation/libelf-by-example/
 
